@@ -38,7 +38,7 @@ The default theme preset is dark.
 ```ts
 type MetabaseConfig = {
     downloads?: boolean
-    initialParameters: string
+    initialParameters?: string
     instanceUrl: string
     isGuest?: boolean
     theme?: {
