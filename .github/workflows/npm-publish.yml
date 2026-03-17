@@ -35,9 +35,9 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - name: Ensure trusted publishing toolchain
-        # npm trusted publishing requires Node >= 22.14.0 and npm >= 11.5.1.
-        run: npm install -g npm@11.11.1
+      # - name: Ensure trusted publishing toolchain
+      #   # npm trusted publishing requires Node >= 22.14.0 and npm >= 11.5.1.
+      #   run: npm install -g npm@11.11.1
       - uses: actions/checkout@v6
       - uses: actions/setup-node@v6
         with:
