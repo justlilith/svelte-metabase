@@ -7,6 +7,7 @@ Embed Metabase dashboards in your Svelte/Kit project.
 ## Features
 
 - Dashboard embedding (guest mode)
+- View mode
 
 ### Planned
 
