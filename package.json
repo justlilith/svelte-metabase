@@ -6,7 +6,7 @@
   "author": "Lilith <hello@justlilith.com> (https://justlilith.com)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/justlilith/svelte-metabase"
+    "url": "git+https://github.com/justlilith/svelte-metabase.git"
   },
   "scripts": {
     "dev": "vite dev",
