@@ -5,6 +5,7 @@ name: Publish svelte-metabase npm package
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 on:
   release:
     types: [created]
@@ -43,3 +44,4 @@ jobs:
       - run: npm publish --provenance --access public
         env:
           NPM_CONFIG_PROVENANCE: true
+          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
