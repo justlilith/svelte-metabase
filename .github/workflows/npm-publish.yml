@@ -46,6 +46,5 @@ jobs:
           # token: ${{secrets.npm_token}}
       - run: npm ci
       - run: npm publish --provenance --access public
-        env:
-          NPM_CONFIG_PROVENANCE: true
-          NODE_AUTH_TOKEN: ''
+        # env:
+        #   NPM_CONFIG_PROVENANCE: true
