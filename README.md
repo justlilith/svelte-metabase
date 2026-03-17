@@ -2,6 +2,8 @@
 
 Embed Metabase dashboards in your Svelte/Kit project.
 
+[![Node.js Package](https://github.com/justlilith/svelte-metabase/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/justlilith/svelte-metabase/actions/workflows/npm-publish.yml)
+
 ## Features
 
 - Dashboard embedding (guest mode)
