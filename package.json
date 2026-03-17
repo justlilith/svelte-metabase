@@ -1,6 +1,6 @@
 {
   "name": "svelte-metabase",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "ISC",
   "description": "Metabase component for Svelte/Kit",
   "author": "Lilith <hello@justlilith.com> (https://justlilith.com)",
