@@ -41,3 +41,5 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: npm ci
       - run: npm publish --provenance --access public
+        env:
+          NPM_CONFIG_PROVENANCE: true
