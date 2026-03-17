@@ -24,6 +24,7 @@ jobs:
         with:
           node-version: 25
       - run: npm ci
+      - run: npx playwright install
       - run: npm test
       - run: npm run prepack
 
