@@ -43,6 +43,7 @@ jobs:
         with:
           node-version: 24
           registry-url: 'https://registry.npmjs.org'
+          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
       - run: npm ci
       - run: npm publish --provenance --access public
         env:
