@@ -17,6 +17,7 @@
         defineMetabaseConfig({
             downloads: config?.downloads || true,
             instanceUrl: config?.instanceUrl,
+            initialParameters: config?.initialParameters || "",
             isGuest: config.isGuest || true,
             theme: {
                 preset: config.theme?.preset || "dark",
@@ -32,6 +33,7 @@
 
 <metabase-dashboard
     {token}
+    initial-parameters={config?.initialParameters}
     with-downloads={config?.downloads || true}
     with-title={config?.title || true}
 ></metabase-dashboard>
